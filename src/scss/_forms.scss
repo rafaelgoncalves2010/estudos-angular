@@ -1,0 +1,58 @@
+label{
+    color: rgb(63, 83, 110);
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.4rem;
+    padding-left: 1rem;
+}
+
+input{
+    height: 2.4rem;
+    outline: none;
+    font-size: 0.8rem;
+    color: #868686;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    appearance: none;
+    border-width: 0.01rem;
+    border-style: solid;
+    border-color: rgb(208, 208, 208);
+    border-image: initial;
+    padding: 0px 2rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    transition: border 0.25s ease-in-out 0s, background-color 0.25s ease-in-out 0s, color 0.25s ease-in-out 0s;
+
+}
+
+select{
+    height: 2.4rem;
+    outline: none;
+    font-size: 0.8rem;
+    color: #868686;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    appearance: none;
+    border-width: 0.01rem;
+    border-style: solid;
+    border-color: rgb(208, 208, 208);
+    border-image: initial;
+    padding: 0px 2rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right;
+    -webkit-appearance: none;
+    background-position-x: 97%;
+}
+
+.two-collums{
+    display: flex;
+    justify-content: space-between;
+
+    div{
+        width: 47%;
+    }
+}

@@ -1,0 +1,50 @@
+@import '../../../scss/styles.scss';
+
+.main-header{
+
+  .second-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+    background-color: $dark-blue;
+  }
+  .navbar{
+    width: 100%;
+    height: 3.5rem;
+    background-color: #0a3a3f;
+    display: flex;
+    align-items: center;
+
+    ul{
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+
+       li{
+        margin-right: 1rem;
+        display: flex;
+
+        &:last-child{
+          margin-left: auto;
+        }
+
+        a{
+          cursor: pointer;
+          color: $white;
+          font-size: 0.9rem;
+          background-color: #024552;
+          padding: 0.6rem 1.3rem;
+          border-radius: 18px;
+          border: 1px solid $dark-blue;
+          text-decoration: none;
+
+          &:hover{
+            border: 1px solid $white;
+          }
+        }
+       }
+    }
+  }
+}

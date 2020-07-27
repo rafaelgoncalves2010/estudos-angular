@@ -1,0 +1,28 @@
+<!-- <app-header></app-header> -->
+
+<section class="login-page">
+  <div class="container">
+    <div class="login-header">
+      <img src="../../../assets/imagens/logoDesenvolveSP.svg">
+    </div>
+    <div class="login-form">
+      <form>
+          <h1>GFESP</h1>
+            <div class="login-campos">
+              <label for="cnpj" class="label-default">Login*</label>
+              <input id="cnpj" class="input-default" name="cnpj" type="text" autocomplete="on" class="" value="">
+
+              <label for="senha" class="label-default">Senha*</label>
+              <input id="senha" class="input-default" type="password" name="senha" autocomplete="on" class="" value="">
+
+              <a class="">Esqueceu a senha?</a>
+            </div>
+
+            <div class="login-botoes">
+              <button class="btn-green"type='button' >Limpar</button>
+              <button class="btn-blue" type='button' (click)='statusHeader($event)'>Entrar</button>
+            </div>
+      </form>
+    </div>
+  </div>
+</section>

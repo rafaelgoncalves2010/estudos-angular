@@ -1,0 +1,96 @@
+<section class="cadastro-autorizacao">
+  <div class="wrapper">
+    <div class="container-ofico">
+      <h1>Cadastro de autorização</h1>
+        <div>
+          <form>
+            <div>
+              <label for="fundo" class="label-default">Fundo</label>
+              <select id="fundo" class="input-default" name="fundo">
+                <option value="volvo">FEAP - Fundo de Expansão do Agronegócio Paulista</option>
+              </select>
+    
+              <label for="modalidade" class="label-default">Unidade</label>
+              <select id="modalidade" class="input-default" name="modalidade">
+                <option value="volvo">FEAP</option>
+              </select>
+
+              <label for="modalidade" class="label-default">Modalidade</label>
+              <select id="modalidade" class="input-default" name="modalidade">
+                <option value="volvo">Seguros</option>
+                <option value="saab">Mata Ciliares</option>
+              </select>
+            </div>
+            <div>
+              <h5>Detalhes da Autorização</h5>
+              <label for="solicitante" class="label-default">Solicitante</label>
+              <input id="solicitante" class="input-default" name="solicitante" type="text">
+
+              <div class="two-collums">
+                <div>
+                  <label for="numero-doc" class="label-default">Número do Documento</label>
+                  <input id="numero-doc" class="input-default" name="numero-doc" type="text">
+                </div>
+                <div>
+                  <label for="data" class="label-default">Data</label>
+                  <input id="data" class="input-default" name="data" type="date">
+                </div>
+              </div>
+
+              <label for="autorizado-por" class="label-default">Autorizado por</label>
+              <input id="autorizado-por" class="input-default" name="autorizado-por" type="text">
+
+              <div class="two-collums">
+                <div>
+                  <label for="doc-pdf" class="label-default">Documento (PDF)</label>
+                  <input id="doc-pdf" class="input-default" name="doc-pdf" type="text">
+                </div>
+                <div>
+                  <label for="arquivo-cnba" class="label-default">Arquivo CNBA</label>
+                  <input id="arquivo-cnba" class="input-default" name="arquivo-cnba" type="text">
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h5>Beneficiário</h5>
+              <label for="nome-razao" class="label-default">Nome / Razão Social</label>
+              <input id="nome-razao" class="input-default" name="nome-razao" type="text">
+
+              <label for="cpf-cnpj" class="label-default">CPF / CNPJ</label>
+              <input id="cpf-cnpj" class="input-default" name="cpf-cnpj" type="text">
+
+              <div class="two-collums">
+                <div>
+                  <label for="agencia" class="label-default">Agência </label>
+                  <input id="agencia" class="input-default" name="agencia" type="text">
+                </div>
+                <div>
+                  <label for="conta" class="label-default">Conta</label>
+                  <input id="conta" class="input-default" name="conta" type="date">
+                </div>
+              </div>
+
+              <div class="two-collums">
+                <div>
+                  <label for="tipo" class="label-default">Tipo</label>
+                  <input id="tipo" class="input-default" name="tipo" type="text">
+                </div>
+                <div>
+                  <label for="valor" class="label-default">Valor</label>
+                  <input id="valor" class="input-default" name="valor" type="text">
+                </div>
+              </div>
+            </div>
+            <div class="botoes-oficio">
+                <button class="btn-green"type='button' >Limpar</button>
+                <button class="btn-blue" type='button' (click)='statusHeader($event)'>Cadastrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+

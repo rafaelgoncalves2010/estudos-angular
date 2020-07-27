@@ -1,0 +1,28 @@
+button{
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 10.5rem;
+    height: 2.6rem;
+    cursor: pointer;
+    border-radius: 5rem;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: none;
+    padding: 0px 2rem;
+    transition: opacity 0.25s ease-in-out 0s;
+
+    &.btn-green{
+        background-color:$light-green;
+    }
+
+    &.btn-blue{
+      background-color:$light-blue;
+    }
+}
